@@ -24,3 +24,13 @@ body {
   position: relative;
   max-width: 1120px;
 }
+
+@layer utilities {
+  .nav-height {
+    @apply h-[calc(100vh-60px)];
+  }
+
+  .hero-title {
+    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10;
+  }
+}
